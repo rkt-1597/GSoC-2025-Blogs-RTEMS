@@ -1,9 +1,9 @@
-title: sra-vjti
-url: blog.sravjti.in
-author: sra-vjti
-email: sraworkshop@gmail.com
+title: GSoC-2025
+url: https://rkt-1597.github.io/GSoC-2025-Blogs-RTEMS
+author: Prithvi Tambewagh
+email: 
 description: > 
-  The Society of Robotics and Automation is a society for VJTI students. As the name suggests, we deal with Robotics, Machine Vision and Automation
+  Blogs during GSoC p2025 period at RTEMS for the project - Providing SPARC GRETH Network Drivers for lwIP
 show_excerpts: false # set to true to show excerpts on the homepage
 
 paginate: 10
