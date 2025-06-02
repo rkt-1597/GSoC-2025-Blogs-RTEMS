@@ -1,0 +1,16 @@
+current directory: /home/prithvi/GSoC-2025-Blogs-RTEMS/vendor/bundle/ruby/3.0.0/gems/unf_ext-0.0.8.2/ext/unf_ext
+/usr/bin/ruby3.0 -I /usr/lib/ruby/vendor_ruby -r ./siteconf20250602-36331-yg0jk4.rb extconf.rb
+checking for -lstdc++... yes
+creating Makefile
+
+current directory: /home/prithvi/GSoC-2025-Blogs-RTEMS/vendor/bundle/ruby/3.0.0/gems/unf_ext-0.0.8.2/ext/unf_ext
+make DESTDIR\= clean
+
+current directory: /home/prithvi/GSoC-2025-Blogs-RTEMS/vendor/bundle/ruby/3.0.0/gems/unf_ext-0.0.8.2/ext/unf_ext
+make DESTDIR\=
+compiling unf.cc
+linking shared-object unf_ext.so
+
+current directory: /home/prithvi/GSoC-2025-Blogs-RTEMS/vendor/bundle/ruby/3.0.0/gems/unf_ext-0.0.8.2/ext/unf_ext
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 unf_ext.so ./.gem.20250602-36331-4dh3dq
