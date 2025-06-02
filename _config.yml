@@ -3,7 +3,7 @@ url: https://rkt-1597.github.io/GSoC-2025-Blogs-RTEMS
 author: Prithvi Tambewagh
 email: 
 description: > 
-  Blogs during GSoC p2025 period at RTEMS for the project - Providing SPARC GRETH Network Drivers for lwIP
+  Blogs during GSoC-2025 period at RTEMS for the project - Providing SPARC GRETH Network Drivers for lwIP
 show_excerpts: false # set to true to show excerpts on the homepage
 
 paginate: 10
@@ -29,21 +29,21 @@ dash:
   # generate social links in footer
   # supported colors: green, red, orange, blue, cyan, pink, teal, yellow, indigo, purple
   social_links:
-    - url: https://www.instagram.com/sra_vjti/
-      icon: instagram
-      color: pink
-    - url: https://www.linkedin.com/company/society-of-robotics-and-automation-vjti/
+    # - url: https://www.instagram.com/sra_vjti/
+    #   icon: instagram
+      # color: pink
+    - url: https://www.linkedin.com/in/prithvi-tambewagh-117335300/
       icon: linkedin
       color: blue
-    - url: https://www.facebook.com/pg/sra.vjti/posts/
-      icon: facebook
-      color: cyan
-    - url: https://www.youtube.com/channel/UC-g67CbV2Iu30n7TvipRiCA/featured
-      icon: youtube
-      color: red
-    - url: https://github.com/sra-vjti
+    # - url: https://www.facebook.com/pg/sra.vjti/posts/
+    #   icon: facebook
+    #   color: cyan
+    # - url: https://www.youtube.com/channel/UC-g67CbV2Iu30n7TvipRiCA/featured
+    #   icon: youtube
+    #   color: red
+    - url: https://github.com/rkt-1597
       icon: github-square
-      color: yellow
+      color: green
 
 # Build settings
 remote_theme: bitbrain/jekyll-dash
