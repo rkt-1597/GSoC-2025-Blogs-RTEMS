@@ -25,7 +25,7 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.1'
-          bundler: '2.2.34'        # Explicitly set Bundler version if your Gemfile.lock requires it
+          bundler: '2.4.10'        # Explicitly set Bundler version if your Gemfile.lock requires it
           bundler-cache: true
 
       - name: Setup Pages
