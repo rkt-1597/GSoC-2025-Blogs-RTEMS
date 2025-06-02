@@ -9,12 +9,12 @@ show_excerpts: false # set to true to show excerpts on the homepage
 paginate: 10
 paginate_path: "/blog/page:num/"
 
-defaults:
-  - scope:
-      path: ""
-      type: posts
-    values:
-      permalink: /:title.html
+# defaults:
+#   - scope:
+#       path: ""
+#       type: posts
+#     values:
+#       permalink: /:title.html
 
 
 tag_permalink_style: pretty
@@ -55,5 +55,5 @@ plugins:
   - jekyll-paginate
   - jekyll/tagging
   
-avatar_source: github
-github_username: sra-vjti
+# avatar_source: github
+# github_username: sra-vjti
