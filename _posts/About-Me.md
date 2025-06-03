@@ -1,0 +1,24 @@
+---
+layout: post
+title: About Me
+
+description: Hello there!
+---
+
+## Mentees  :
+- Prithvi Tambewagh
+—-------------------------------	
+
+Myself Prithvi Tambewagh, a junior (third year student) studying B.Tech. Electronics and Telecommunication Engineering at Veermata Jijabai Technological Institue (VJTI), India.
+
+I have been exploring robotics since my childhood. But, my college provided a greater playground for me to pay with and explore robotics and electronics. I attended workshops conducted by our seniors at [Society of Robotics and Automation (SRA-VJTI)](https://sravjti.in/) related to making ESP32 based Self balancing and Line following robot, Computer Vision, as well as manipulator arm based on ESP32, and concpets like ROS2, RViz, Gazebo, Micro-ROS, etc. Soon, I joined SRA-VJTI and I got the opprotunity to teach my juniors topics related to robotics and electronics and guide them to make theor own robots. 
+
+In my sophomore year I had also participated in E-Yantra Robotics Competition organized by Indian Institute of Technology, Bombay (IIT-B), where we, in our theme of the competition, were tasked with making a ROS2 based quadcopter, capable of navigating through a warehouse maze, as monitored by an overhead camera, by using Computer Vision and ArUco Markers. We were able to reach the second stage of the competition. I had also participated in an Agri-tech 24-hour national level hackathon organized at K. J. Somaiya School of Engineering, Mumbai. These experiences shaped my interest in electronics further. 
+
+Recently, while exploring Low level electronics and FreeRTOS I came across RTEMS. The robust nature of RTEMS and thefact that it is used in space based systems, fascinated me to a great extent. Subsequently, I also learnt about the prestigious Google Summer of Code (GSoC) Programme. Excited to contribute to RTEMS via GSoC, I applied for the project : [Provide SPARC greth Network Drivers for lwIP](https://gitlab.rtems.org/rtems/programs/gsoc/-/issues/77) and I feel very happy for being selected for this project!!!
+
+Looking forward to contributing to this GSoC project this summer.
+
+Glad to meet you!
+
+![me](/assets/posts/SRA-workshop.jpeg)
