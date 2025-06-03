@@ -5,9 +5,7 @@ title: About Me
 description: Hello there!
 ---
 
-## Mentees  :
-- Prithvi Tambewagh
-—-------------------------------	
+## Prithvi Tambewagh
 
 Myself Prithvi Tambewagh, a junior (third year student) studying B.Tech. Electronics and Telecommunication Engineering at Veermata Jijabai Technological Institue (VJTI), India.
 
