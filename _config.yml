@@ -6,6 +6,8 @@ description: >
   Blogs during GSoC-2025 period at RTEMS for the project - Providing SPARC GRETH Network Drivers for lwIP
 show_excerpts: false # set to true to show excerpts on the homepage
 
+baseurl: "/GSoC-2025-Blogs-RTEMS"
+
 paginate: 10
 paginate_path: "/blog/page:num/"
 
