@@ -2,7 +2,7 @@
 layout: post
 title: Project Introduction – Provide SPARC greth Network Drivers for lwIP
 categories: ["Project Description"]
-description: GSoC-s2025 Project - Prithvi Tambewagh
+description: GSoC-2025 Project - Prithvi Tambewagh
 ---
 
 ## Overview
