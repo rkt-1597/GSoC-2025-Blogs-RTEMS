@@ -27,6 +27,12 @@ Currently, SPARC Board Support Packages (BSPs) in RTEMS only support the GRETH n
 - Test and validate the new driver on simulator e.g. RTEMS-SIS.
 - Collaborate with mentors and the RTEMS community for feedback and integration guidance.
 
+## Project Mentors 
+----------------------------------
+Pavel Pisa
+Vijay Banerjee
+Kinsey Moore
+Matteo Concas
 
 ## Important Links
 ----------------------------------
