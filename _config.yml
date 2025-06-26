@@ -16,7 +16,7 @@ defaults:
       path: ""
       type: posts
     values:
-      permalink: /:{{ site.baseurl }}/title.html
+      permalink: /:title.html
 
 
 tag_permalink_style: pretty
