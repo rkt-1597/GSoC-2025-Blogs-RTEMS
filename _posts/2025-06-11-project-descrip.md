@@ -29,9 +29,9 @@ Currently, SPARC Board Support Packages (BSPs) in RTEMS only support the GRETH n
 
 ## Project Mentors 
 ----------------------------------
-Pavel Pisa
-Vijay Banerjee
-Kinsey Moore
+Pavel Pisa  
+Vijay Banerjee  
+Kinsey Moore  
 Matteo Concas
 
 ## Important Links
