@@ -9,10 +9,11 @@ description: GSoC 2025 Midterm Evaluation
 -------------------------------
 The period in GSoC until now has been pretty thrilling and rewarding. During this time till Midterm Evaluation of GSoC 2025 @RTEMS Project, I accomplished the following milestones : 
 
-+  GRETH lwIP Driver successfully being Initialized and this is tested
-+  Code for GRETH Transmission Mechanism and handling of Transmission related Interrupts ready 
++ GRETH lwIP Driver successfully being Initialized and this is tested
++ Code for GRETH Transmission Mechanism and handling of Transmission related Interrupts ready 
 + Progress in testing GRETH lwIP Driver 
-+  GRETH Legacy Driver successfully simulated and tested
++ GRETH Legacy Driver successfully simulated and tested
++ FLowchart for the tests used, across RTEMS networking packages
 + Notes made while studying GRETH Legacy Driver and TMS570 lwIP driver
 
 ## Project overview
@@ -62,7 +63,7 @@ GRETH is an Ethernet Media Access Controller from Frontgrade Gaisler. Currently,
         ![demo_net]({{site.baseurl}}/assets/posts/midterm/demo_nethwaddr.png)  
         + However, right now, I am just getting `net: hwaddr error`. Though this is an error, I am confident to resolve it, delving further into GRETH configuration and initialization and its connection with lwIP.  
         ![lwip_nethw]({{site.baseurl}}/assets/posts/midterm/lwip_nethw.png)  
-        + Here is the test on my fork of RTEMS lwIP which I have creatd until now. The test works fine, it transmits UDP packets at regular intervals. However, I am just facing few issues in tracking the reception of these packets, due to error in tap interface creation  
+        + Here is the [test](https://gitlab.rtems.org/prithvi77/rtems-lwip/-/blob/Prithvi-GSoC-25-Tests/rtemslwip/test/udp_test/init.c?ref_type=heads) at commit `2e8cb5dcb3dadfb49c67e2b51d430b6b3b07877c` on my fork of RTEMS lwIP which I have creatd until now. The test works fine, it transmits UDP packets at regular intervals. However, I am just facing few issues in tracking the reception of these packets, due to error in tap interface creation  
 
 4. GRETH Legacy Driver successfully simulated and tested :  
     + A key aspect of this project was to simulate GRETH Legacy Driver. For this milestone, I had encountered several problems, like memory alignment issues, connectivity issues, etc. due to which I wasn't able to simulatye the working of GRETH Legacy Driver. However, it was due to all these errors that I got the opportunity to dive deep into RTEMS codebase, so as to work on these issues in a better way. I learnt about the importance and method of configuration of struct `rtems_bsdnet_config` and `rtems_bsdnet_ifconfig`, working with `sparc-rtems7-gdb`, using tools like  `addr2line`, `sparc-rtems7-objdump`, etc. to name a few important learnings.    
@@ -73,7 +74,15 @@ GRETH is an Ethernet Media Access Controller from Frontgrade Gaisler. Currently,
     ![tcpdump_netstats]({{site.baseurl}}/assets/posts/week7/udp_echo/ucast_netstats.png)
     Further, using `netcast` I was also able to transmit custom UDP packets to the Legacy GRETH Driver and it shown proper reception.
     ![netcat_netstats]({{site.baseurl}}/assets/posts/week7/udp_echo/nc_netstats.png)
-    After checking that my unicast UDP client test works, I pushed it to [my branch of my fork of RTEMS Networking Tests](https://github.com/rkt-1597/rtems-networking-tests/blob/Prithvi-GSoC-2025/ucast_client/ucast_client.c)
+    After checking that my unicast UDP client test works, I pushed it to [my branch of my fork of RTEMS Networking Tests](https://github.com/rkt-1597/rtems-networking-tests/blob/Prithvi-GSoC-2025/ucast_client/ucast_client.c) 
+
+5. Work with tests across RTEMS networking packages : I worked with several tests from RTEMS Legacy Networking, Legacy Networking Demos, Net Services and lwIP. Here is a flowchart summarizing my progress while using them. 
+    ![flowchart]({{site.baseurl}}/assets/posts/midterm/flowchart.png)
+
+6. Notes made while studying GRETH Legacy Driver and TMS570 lwIP driver : 
+In the initial phasse of coding period, I began with studying GRETH Legacy Driver for GRETH driver intricacies and TMS570 Ethernet Driver for lwiP intricacies. At that time, I made doxygen comments as my notes for these drivers on my forks. Here are their links :  
+    + [GRETH Legacy Driver](https://gitlab.rtems.org/prithvi77/rtems-net-legacy/-/blob/greth-legacy-notes/bsps/shared/net/greth2.c?ref_type=heads)
+    + [TMS570 Ethernet lwIP Driver](https://gitlab.rtems.org/prithvi77/rtems-lwip/-/blob/TMS570_lwIP_Documentation/rtemslwip/tms570/tms570_netif.c?ref_type=heads)
 
 
 ## Problems faced (an overview) 
