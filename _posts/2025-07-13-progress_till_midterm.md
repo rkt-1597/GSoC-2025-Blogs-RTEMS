@@ -62,7 +62,7 @@ GRETH is an Ethernet Media Access Controller from Frontgrade Gaisler. Currently,
         ![demo_net]({{site.baseurl}}/assets/posts/midterm/demo_nethwaddr.png)  
         + However, right now, I am just getting `net: hwaddr error`. Though this is an error, I am confident to resolve it, delving further into GRETH configuration and initialization and its connection with lwIP.  
         ![lwip_nethw]({{site.baseurl}}/assets/posts/midterm/lwip_nethw.png)  
-        + Here is the test on my fork of RTEMS lwIP which I have creatd until now. The test works fine, it transmits UDP packets at regular intervals. However, I am just facing few issues in tracking the reception of these packets, due to error in tap interface creation. 
+        + Here is the test on my fork of RTEMS lwIP which I have creatd until now. The test works fine, it transmits UDP packets at regular intervals. However, I am just facing few issues in tracking the reception of these packets, due to error in tap interface creation  
 
 4. GRETH Legacy Driver successfully simulated and tested :  
     + A key aspect of this project was to simulate GRETH Legacy Driver. For this milestone, I had encountered several problems, like memory alignment issues, connectivity issues, etc. due to which I wasn't able to simulatye the working of GRETH Legacy Driver. However, it was due to all these errors that I got the opportunity to dive deep into RTEMS codebase, so as to work on these issues in a better way. I learnt about the importance and method of configuration of struct `rtems_bsdnet_config` and `rtems_bsdnet_ifconfig`, working with `sparc-rtems7-gdb`, using tools like  `addr2line`, `sparc-rtems7-objdump`, etc. to name a few important learnings.    
